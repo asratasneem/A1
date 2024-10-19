@@ -114,3 +114,30 @@ PDF: velvet_report.pdf
 These reports contain detailed assembly statistics for both Oases and Velvet across different k-mer sizes, including metrics such as N50, total contig length, and contig distribution.
 
 ---
+
+###Results Summary
+
+The following k-mer sizes were used for both Velvet and Oases: 23, 27, 49, 57, 63, 77.
+
+**Velvet Results**:
+
+- Number of contigs: Varied from 22,606 to 35,125 depending on k-mer size.
+-Largest contig: Up to 2,945 bp at k-mer 77.
+-Total length: Ranged from ~2.69 Mbp to ~5.71 Mbp.
+-N50: Improved with increasing k-mer sizes, reaching 474 bp at k-mer 77.
+
+**Oases Results:**
+
+-Number of contigs: Similar range, from 22,607 to 35,127.
+-Largest contig: Up to 2,945 bp at k-mer 77.
+-Total length: Ranged from ~2.69 Mbp to ~5.64 Mbp.
+-N50: Also improved with higher k-mer sizes, reaching 474 bp at k-mer 77.
+
+
+**Output Files**
+The results of the assembly and quality assessments can be found in the following reports:
+
+- Velvet Report: velvet_report.html, velvet_report.pdf
+- Oases Report: oases_report.html, oases_report.pdf
+- Transposed Velvet Report: velvet_transposed_report
+- Transposed Oases Report: oases_transposed_report
