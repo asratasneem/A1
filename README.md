@@ -2,7 +2,7 @@
 # Genome Assembly of *Escherichia coli* Using Velvet & Oases
 
 ## Overview
-This README provides step-by-step instructions to assemble the *Escherichia coli* genome from short-read Illumina sequencing data (SRA ID: SRR21904868) using Velvet and Oases. The analysis was performed on Indiana University's big red desktop, using `sra-tools` for data retrieval and `QUAST` for assembly evaluation.
+This analysis provides step-by-step instructions to assemble the *Escherichia coli* genome from short-read Illumina sequencing data (SRA ID: SRR21904868) using Velvet and Oases. The analysis was performed on Indiana University's big red desktop, using `sra-tools` for data retrieval and `QUAST` for assembly evaluation.
 
 ## Software and Tools Used
 - **Conda**: To manage environments and dependencies.
