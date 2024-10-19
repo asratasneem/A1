@@ -95,6 +95,14 @@ The output includes:
 - **QUAST Reports**: Comprehensive statistics about each assembly (number of contigs, N50, total length, largest contig, etc.) located in `/velvet_quast_final_results` and `/oases_quast_final_result`.
 
 ---
-### 
+### Result files
+The following reports have been generated and included for detailed assembly statistics:
 
+Oases Report:
+HTML: oases_report.html
+PDF: oases_report.pdf
+Velvet Report:
+HTML: velvet_report.html
+PDF: velvet_report.pdf
+These reports contain detailed assembly statistics for both Oases and Velvet across different k-mer sizes, including metrics such as N50, total contig length, and contig distribution.
 ---
