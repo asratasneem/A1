@@ -101,7 +101,8 @@ The following reports have been generated and included for detailed assembly sta
 - **Oases Report**:
 HTML: oases_report.html
 PDF: oases_report.pdf
--**Velvet Report**:
+
+- **Velvet Report**:
 HTML: velvet_report.html
 PDF: velvet_report.pdf
 These reports contain detailed assembly statistics for both Oases and Velvet across different k-mer sizes, including metrics such as N50, total contig length, and contig distribution.
